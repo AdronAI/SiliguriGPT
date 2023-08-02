@@ -32,8 +32,8 @@
       "src/*",
       "src/**/*",
       "src/**/**/*",
-      "index.ts",
-      "config.ts",
+      "src/index.ts",
+      "src/config.ts",
       "src/api"
     ],
     "exclude": [
