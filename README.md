@@ -13,6 +13,11 @@ GPT_KEY=***
 ```bash
 yarn install ## or npm install
 ```
+### Example
+
+```bash
+yarn run example ## or npm run example
+```
 
 ### VS Code setup
 
@@ -29,9 +34,3 @@ yarn install ## or npm install
     }
     
     ```
-
-### Example
-
-```bash
-yarn run example ## or npm run example
-```
