@@ -23,7 +23,7 @@ let chunk = "";
 words.forEach((word) => {
   chunk += word + " ";
   if (word.endsWith(".") || word.endsWith("!") || word.endsWith("?")) {
-    docs.push(new Document({ pageContent: chunk.trim() }));
+    docs.push(new Document({ pageContent: chunk.trim()}));
     chunk = "";
   }
 });
